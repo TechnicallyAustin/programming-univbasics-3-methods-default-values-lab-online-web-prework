@@ -5,5 +5,5 @@ def meal_choice(veg1, veg2, protein = "meat")
   puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
   
-  puts meal_choice("","",protein)
+  puts meal_choice("peas","carrots",protein)
 # For output purposes, use "puts" instead of "print" or "p"
